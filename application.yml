@@ -4,6 +4,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/    # this is the address of eureka server. In case we want other services from other computers connect to our eureka server, we must put ip address of our computer+ port number
     instance:
       hostname: localhost
+ 
